@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #151515;
+  color: white;
+  font-family: "Hind Siliguri", "Oswald", sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+.overlord-container {
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.trailer-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.poster-container {
+  position: relative;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.poster-container .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.trailer-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.description-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+.resume-container {
+  text-align: justify;
+}
+
+.info-container {
+  color: white;
+  background-color: #21221f;
+  margin-bottom: 5%;
+}
+
+.info-container li {
+  list-style: none;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 0.5em;
+}
+
+.info-container span {
+  font-size: 1em;
+  color: #999;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.photo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+}
